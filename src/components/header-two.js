@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useContext } from "react";
-import { LogoImage, NavLinks } from "@/data";
+import { NavLinks } from "@/data";
+import { Logo } from "@/images/gravital.png";
 import { Col, Container, Row } from "react-bootstrap";
 import { SearchContext } from "@/context/search-context";
 import { MenuContext } from "@/context/menu-context";
+import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
 const HeaderTwo = () => {
@@ -45,7 +47,14 @@ const HeaderTwo = () => {
           <Col className="col-6" lg={2} md={3} sm={3}>
             <div className="logo">
               <Link to="/">
-                <img src={LogoImage.dark} alt="" />
+                <StaticImage
+                  placeholder="blurred"
+                  layout="constrained"
+                  width={75}
+                  src={"../assets/images/gravital.png"}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Gravital Visuals Logo"
+                />
               </Link>
             </div>
           </Col>

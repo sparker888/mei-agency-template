@@ -1,5 +1,5 @@
-import logoLight from "@/images/logo.png";
-import logoDark from "@/images/logo2.png";
+import logoLight from "@/images/gravital.png";
+import logoDark from "@/images/gravital.png";
 
 export const LogoImage = {
   light: logoLight,
@@ -10,20 +10,6 @@ export const NavLinks = [
   {
     name: "Home",
     url: "/",
-    subItems: [
-      {
-        name: "Home 01",
-        url: "/",
-      },
-      {
-        name: "Home 02",
-        url: "/index-2",
-      },
-      {
-        name: "Home 03",
-        url: "/index-3",
-      },
-    ],
   },
   {
     name: "About",

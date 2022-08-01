@@ -10,6 +10,20 @@ export const NavLinks = [
   {
     name: "Home",
     url: "/",
+    subItems: [
+      {
+        name: "Home 01",
+        url: "/",
+      },
+      {
+        name: "Home 02",
+        url: "/index-2",
+      },
+      {
+        name: "Home 03",
+        url: "/index-3",
+      },
+    ],
   },
   {
     name: "About",
@@ -95,9 +109,9 @@ export const SliderOneData = [
   },
 ];
 
-import sliderTwo01 from "@/images/slider/2_1.jpg";
-import sliderTwo02 from "@/images/slider/2_2.jpg";
-import sliderTwo03 from "@/images/slider/2_3.jpg";
+import sliderTwo01 from "@/images/slider/aerial-1.jpg";
+import sliderTwo02 from "@/images/slider/aerial-2.jpg";
+import sliderTwo03 from "@/images/slider/aerial-3.jpg";
 
 export const SliderTwoData = [
   {
